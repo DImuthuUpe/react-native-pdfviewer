@@ -1,0 +1,23 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "pdfviewer"
+  ],
+  "ios": {
+    "iosModuleName": "Pdfviewer"
+  },
+  "android": {
+    "androidNamespace": [
+      "pdfviewer"
+    ],
+    "androidCxxLibName": "Pdfviewer"
+  },
+  "autolinking": {
+    "Pdfviewer": {
+      "cpp": "HybridPdfviewer"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
