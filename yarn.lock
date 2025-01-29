@@ -1609,6 +1609,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@egjs/hammerjs@npm:^2.0.17":
+  version: 2.0.17
+  resolution: "@egjs/hammerjs@npm:2.0.17"
+  dependencies:
+    "@types/hammerjs": ^2.0.36
+  checksum: 8945137cec5837edd70af3f2e0ea621543eb0aa3b667e6269ec6485350f4d120c2434b37c7c30b1cf42a65275dd61c1f24626749c616696d3956ac0c008c4766
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.2.0, @eslint-community/eslint-utils@npm:^4.4.0":
   version: 4.4.1
   resolution: "@eslint-community/eslint-utils@npm:4.4.1"
@@ -1665,9 +1674,9 @@ __metadata:
   linkType: hard
 
 "@inquirer/figures@npm:^1.0.3":
-  version: 1.0.9
-  resolution: "@inquirer/figures@npm:1.0.9"
-  checksum: b4a5463a7e9042ac8a16160909936e298b93c334b6d384a8c785ca4fa602ccc6e15dd507a365b24fadf338a3bb3243063affb836a96ea7dbef4ae229a17ff8ff
+  version: 1.0.10
+  resolution: "@inquirer/figures@npm:1.0.10"
+  checksum: bf3b86e55bce1d32f6ec0cb9413a10fe9a3aa2757071e45e46b26011bfb69b001b31da2b1e0c6b97be424df1f32047402a03e3234cda4c9a433ea122f1b0ad73
   languageName: node
   linkType: hard
 
@@ -2804,14 +2813,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ts-morph/common@npm:~0.25.0":
-  version: 0.25.0
-  resolution: "@ts-morph/common@npm:0.25.0"
+"@ts-morph/common@npm:~0.26.0":
+  version: 0.26.0
+  resolution: "@ts-morph/common@npm:0.26.0"
   dependencies:
+    fast-glob: ^3.3.2
     minimatch: ^9.0.4
     path-browserify: ^1.0.1
-    tinyglobby: ^0.2.9
-  checksum: b8177f7969b058a8da6c79e28dc71c326acc4431e1138b04d2311be98cf46d9506053064eb3304f49970a58daf1f4ea0c0760c0d3b50636179424a5d71b9c74f
+  checksum: cd34f9dcaa70f9c9b95a819345a6ed5d3afb873ddb340d702ff0045e2918bdbf338ee8576ef6f86acba24751b936d69deb80b5efca0f15a1cc2f433d32933b68
   languageName: node
   linkType: hard
 
@@ -2862,6 +2871,13 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: 79d746a8f053954bba36bd3d94a90c78de995d126289d656fb3271dd9f1229d33f678da04d10bce6be440494a5a73438e2e363e92802d16b8315b051036c5256
+  languageName: node
+  linkType: hard
+
+"@types/hammerjs@npm:^2.0.36":
+  version: 2.0.46
+  resolution: "@types/hammerjs@npm:2.0.46"
+  checksum: caba6ec788d19905c71092670b58514b3d1f5eee5382bf9205e8df688d51e7857b7994e2dd7aed57fac8977bdf0e456d67fbaf23440a4385b8ce25fe2af1ec39
   languageName: node
   linkType: hard
 
@@ -3958,9 +3974,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001688":
-  version: 1.0.30001695
-  resolution: "caniuse-lite@npm:1.0.30001695"
-  checksum: 97729756cc19e9a93d46061ff11690d9a7d2facdb9c275111b19548adcba29d29638339bd6e659b7ddcb3649f17926a66a4cfb407605232f21918b70650a40be
+  version: 1.0.30001696
+  resolution: "caniuse-lite@npm:1.0.30001696"
+  checksum: 079be180f364b63fb85415fa3948d1e9646aa655f8678a827e9b533712e14d727c2983397603ce7107b995226f6590d96bf26ef2032e756ef6ee09898feee5f9
   languageName: node
   linkType: hard
 
@@ -5449,18 +5465,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fdir@npm:^6.4.2":
-  version: 6.4.3
-  resolution: "fdir@npm:6.4.3"
-  peerDependencies:
-    picomatch: ^3 || ^4
-  peerDependenciesMeta:
-    picomatch:
-      optional: true
-  checksum: fa53e13c63e8c14add5b70fd47e28267dd5481ebbba4b47720ec25aae7d10a800ef0f2e33de350faaf63c10b3d7b64138925718832220d593f75e724846c736d
-  languageName: node
-  linkType: hard
-
 "fill-range@npm:^7.1.1":
   version: 7.1.1
   resolution: "fill-range@npm:7.1.1"
@@ -6092,6 +6096,15 @@ __metadata:
   dependencies:
     hermes-estree: 0.25.1
   checksum: 4edcfaa3030931343b540182b83c432aba4cdcb1925952521ab4cfb7ab90c2c1543dfcb042ccd51d5e81e4bfe2809420e85902c2ff95ef7c6c64644ce17138ea
+  languageName: node
+  linkType: hard
+
+"hoist-non-react-statics@npm:^3.3.0":
+  version: 3.3.2
+  resolution: "hoist-non-react-statics@npm:3.3.2"
+  dependencies:
+    react-is: ^16.7.0
+  checksum: b1538270429b13901ee586aa44f4cc3ecd8831c061d06cb8322e50ea17b3f5ce4d0e2e66394761e6c8e152cd8c34fb3b4b690116c6ce2bd45b18c746516cb9e8
   languageName: node
   linkType: hard
 
@@ -8388,18 +8401,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nitro-codegen@npm:0.20.1":
-  version: 0.20.1
-  resolution: "nitro-codegen@npm:0.20.1"
+"nitro-codegen@npm:0.21.0":
+  version: 0.21.0
+  resolution: "nitro-codegen@npm:0.21.0"
   dependencies:
     chalk: ^5.3.0
-    react-native-nitro-modules: ^0.20.1
-    ts-morph: ^24.0.0
+    react-native-nitro-modules: ^0.21.0
+    ts-morph: ^25.0.0
     yargs: ^17.7.2
     zod: ^3.23.8
   bin:
     nitro-codegen: lib/index.js
-  checksum: 870beed387cf2b8a7225fea0502e5790182bb90a9cf9db62cb12f860ee28991fa61abb06f1f03981a71e32cf2f3078a0ae845a08c6ae5b21135f9be5da0273ab
+  checksum: 3f36d726833b7760ba4a05893c59abfdc0fb9b81655bcfdae0f86f9f01817c19e44ced8f309bf053ddfa00fd5f4e61447fed025be6350828801d3f98a96274f5
   languageName: node
   linkType: hard
 
@@ -9078,13 +9091,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"picomatch@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "picomatch@npm:4.0.2"
-  checksum: a7a5188c954f82c6585720e9143297ccd0e35ad8072231608086ca950bee672d51b0ef676254af0788205e59bd4e4deb4e7708769226bed725bf13370a7d1464
-  languageName: node
-  linkType: hard
-
 "pify@npm:^4.0.1":
   version: 4.0.1
   resolution: "pify@npm:4.0.1"
@@ -9314,7 +9320,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1":
+"react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
@@ -9367,23 +9373,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-nitro-modules@npm:*":
+"react-native-gesture-handler@npm:^2.22.1":
+  version: 2.22.1
+  resolution: "react-native-gesture-handler@npm:2.22.1"
+  dependencies:
+    "@egjs/hammerjs": ^2.0.17
+    hoist-non-react-statics: ^3.3.0
+    invariant: ^2.2.4
+  peerDependencies:
+    react: "*"
+    react-native: "*"
+  checksum: 31be1a30d35b20dc72426147b3c5b8a2bf23a4666a4208208c423baec098850564e8cb555d360b87435ffe65a4f51f84e5471bf2140979c84589bd787cf5cfe0
+  languageName: node
+  linkType: hard
+
+"react-native-nitro-modules@npm:*, react-native-nitro-modules@npm:0.21.0, react-native-nitro-modules@npm:^0.21.0":
   version: 0.21.0
   resolution: "react-native-nitro-modules@npm:0.21.0"
   peerDependencies:
     react: "*"
     react-native: "*"
   checksum: ef0f88d2fb98aad489b10a661874e20cfc73c5beaa7d503ad3bcbbaff20ee0db200282f515bb374154a4f1895ca1ebe6e66545dae76377e256d6d3e8c6de220b
-  languageName: node
-  linkType: hard
-
-"react-native-nitro-modules@npm:0.20.1, react-native-nitro-modules@npm:^0.20.1":
-  version: 0.20.1
-  resolution: "react-native-nitro-modules@npm:0.20.1"
-  peerDependencies:
-    react: "*"
-    react-native: "*"
-  checksum: 92b722c22eb241a4930ee122477dbd619c010c58ed519533a3600bd1b289396bf5384ff9cf68d116f310935659b7f63da34d1d39f87ffd2bfcf415453e15aca0
   languageName: node
   linkType: hard
 
@@ -9404,6 +9414,7 @@ __metadata:
     "@types/jest": ^29.5.13
     react: 18.3.1
     react-native: 0.77.0
+    react-native-gesture-handler: ^2.22.1
     react-native-nitro-modules: "*"
   languageName: unknown
   linkType: soft
@@ -9417,11 +9428,11 @@ __metadata:
     "@release-it/conventional-changelog": ^8.0.1
     "@types/jest": ^29.5.12
     "@types/react": ^18.3.4
-    nitro-codegen: 0.20.1
+    nitro-codegen: 0.21.0
     react: ^18.3.1
     react-native: ^0.76.5
     react-native-builder-bob: ^0.35.2
-    react-native-nitro-modules: 0.20.1
+    react-native-nitro-modules: 0.21.0
     release-it: ^17.6.0
     typescript: 5.0.4
   peerDependencies:
@@ -10797,16 +10808,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.9":
-  version: 0.2.10
-  resolution: "tinyglobby@npm:0.2.10"
-  dependencies:
-    fdir: ^6.4.2
-    picomatch: ^4.0.2
-  checksum: 7e2ffe262ebc149036bdef37c56b32d02d52cf09efa7d43dbdab2ea3c12844a4da881058835ce4c74d1891190e5ad5ec5133560a11ec8314849b68ad0d99d3f4
-  languageName: node
-  linkType: hard
-
 "tmp@npm:^0.0.33":
   version: 0.0.33
   resolution: "tmp@npm:0.0.33"
@@ -10862,13 +10863,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-morph@npm:^24.0.0":
-  version: 24.0.0
-  resolution: "ts-morph@npm:24.0.0"
+"ts-morph@npm:^25.0.0":
+  version: 25.0.0
+  resolution: "ts-morph@npm:25.0.0"
   dependencies:
-    "@ts-morph/common": ~0.25.0
+    "@ts-morph/common": ~0.26.0
     code-block-writer: ^13.0.3
-  checksum: 49eabeaa00f0922d2d6b955b85f17e6fd49e1270116ef37f1948c5515d2c84c1b6aa821bba436292c67568cd74e0b2734c37219b8f155b1d444150c8383580e0
+  checksum: 1c977d50f41bde08037142c2fa4d014678154ca09dac9ef128c659e7b69c7cf1111b762a9ce024f09e722eca0aea49035e9602b1d958370bead2d65c436b55ff
   languageName: node
   linkType: hard
 
